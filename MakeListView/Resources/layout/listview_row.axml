@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:paddingLeft="5dp"
+    android:paddingBottom="2dp"
+    android:paddingTop="2dp"
+    android:weightSum="90">
+       
+        <TextView
+            android:text="Razão Social"
+            android:layout_width="match_parent"
+            android:layout_weight="30"
+            android:layout_height="wrap_content"
+            android:id="@+id/razaoSocial" />
+        <TextView
+            android:text="Nome Fantasia"
+            android:layout_width="match_parent"
+            android:layout_weight="30"
+            android:layout_height="wrap_content"
+            android:id="@+id/nomeFantasia" />
+        <TextView
+            android:text="CPF"
+            android:layout_width="match_parent"
+            android:layout_weight="30"
+            android:layout_height="wrap_content"
+            android:id="@+id/cpf" />
+</LinearLayout>
